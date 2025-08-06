@@ -2,29 +2,6 @@
 
 This project analyzes Peripheral Blood Mononuclear Cells (PBMCs) isolated from **Citrate-Treated Cell Preparation Tubes (CPT)** using 10x Genomics' **3' v3.1 Chemistry** platform. The analysis includes UMAP (Uniform Manifold Approximation and Projection) visualization of cell clusters and identification of cluster-specific marker genes via differential expression.
 
-## Project Structure
-
-'''plaintext
-PBMC_UMAP_Clustering/
-├── data/
-│   └── analysis/
-│       ├── clustering/
-│       │   ├── graphclust/
-│       │   ├── kmeans_2_clusters/
-│       │   ├── kmeans_3_clusters/
-│       │   └── ... (other kmeans cluster folders)
-│       ├── diffexp/
-│       │   ├── graphclust/
-│       │   ├── kmeans_2_clusters/
-│       │   └── ... (other kmeans cluster folders)
-│       ├── pca/
-│       │   └── 10_components/
-│       ├── tsne/
-│       │   └── 2_components/
-│       └── umap/
-│           └── 2_components/
-└── scripts/
-
 ## Data source
 
 The data is obtained from **10x Genomics**:  
