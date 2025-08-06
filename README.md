@@ -4,6 +4,7 @@ This project analyzes Peripheral Blood Mononuclear Cells (PBMCs) isolated from *
 
 ## Project Structure
 
+'''plaintext
 PBMC_UMAP_Clustering/
 ├── data/
 │   └── analysis/
